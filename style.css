@@ -1,0 +1,749 @@
+/* Для всего документа */
+body{
+    width: 1440px;
+    height: 4195px;
+    margin-left: 200px;
+    margin-top: 200px;
+    padding: 0;
+  
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* Шапка */
+header {
+    width: 1380px;
+    height: 107px;
+    left: 30px;
+    top: 30px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+
+}
+
+.ArtCalibri {
+    width: 86.02px;
+    height: 43.49px;
+    background-color: #F188F2;
+    background-image: url('./images/Снимок.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.btn-catalog {
+    width: 154px;
+    height: 49px;
+    margin-left: 41px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 2px solid #F188F2;
+    background-color:  #F188F2;
+   
+}
+
+.btn-catalog:hover {
+    background: #C949CA;
+
+}
+
+.search {
+    width: 443px;
+    height: 49px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    background-color: rgb(249, 249, 249);
+ 
+}
+
+.search_image {
+    margin-left: 18px;
+    margin-right: 10px;
+
+}
+
+.search input {
+    height: 48px;
+    width: 400px;
+    box-sizing: border-box;
+
+}
+
+.nav-menu-top {
+    font-family: 'Montserrat';
+    width: 510px;
+    height: 21px;
+    margin-left: 60px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+  
+}
+
+.nav-menu-top a {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    
+}
+
+.nav-menu-top a:hover {
+    color: #FC42FF;
+
+}
+
+.bag_img {
+    width: 30px;
+    height: 30px;
+    margin-left: 42px;
+
+}
+
+.bot{
+    display: flex;
+
+}
+
+.nav-menu-bot p:first-child {
+    margin-left: 0px;
+    width: 163px;
+    height: 22px;
+    
+
+}
+
+.nav-menu-bot {
+    display: flex;
+    margin-top: 19px;
+
+}
+
+.nav-menu-bot p {
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 130%;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.nav-menu-bot p:hover {
+    color: #FC42FF;
+
+}
+
+.social-media {
+    width: 248px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 73px;
+
+}
+
+.social-media-image {
+    margin-left: 18px;
+
+}
+
+#social-media-img {
+    Width:26.4px;
+    Height:26.4px;
+
+}
+
+.social-media-number {
+    width: 148px;
+    height: 21px;
+    display: flex;
+    margin-right: 26px;
+
+}
+
+#social-media-number-img {
+    width: 11px;
+    height: 5px;
+    margin-top: 8px;
+    margin-right: 10px;
+
+}
+
+.social-media-number p {
+    width: 127px;
+    height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    font-style: normal;
+    margin: 0;
+
+}
+
+.Working-time {
+    margin-left: 42px;
+    margin-bottom: 10px;
+
+}
+
+.Working-time p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+
+.Working-time p:first-child {
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+/* Блок новостей о распродаже(В честь НГ) */
+
+.sale {
+    width: 1440px;
+    height: 600px;
+    margin-top: 37px;
+    background-image: url('./images/pink-birthday-air-balloons-on-mint-background-with-mockup\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+  
+}
+
+.sale h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    padding-top: 130px;
+    margin-bottom: 0;
+    margin-left: 51px;
+    color: #FFFFFF;
+ 
+}
+
+.sale p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    margin-top: 3px;
+    margin-bottom: 60px;
+    margin-left: 51px;
+    color: #FFFFFF;
+ 
+}
+
+.sale-btn {
+margin-left: 51px;
+
+}
+
+#all-stock {  
+    width: 241px;
+    height: 82px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    background: #FFFFFF;
+    border-radius: 13px;
+    cursor: pointer;
+
+}
+
+#more {
+    width: 235px;
+    height: 82px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 13px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+
+/*Популярные  Категории */
+.Popular-categories {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+/* Товары */
+.goods {
+    width: 1378px;
+    height: 844px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.goods-item {
+    width: 318px;
+    height: 393px;
+    margin-right: 20px;
+
+}
+.goods-item p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+/* Лидеры продаж */
+.Leaders-of-sells {
+    width: 318px;
+    height: 387px;
+    margin-left: 34px;
+
+} 
+
+.Leaders-of-sells:first-child {
+    margin-left: 0;
+
+}
+
+.Leaders-of-sells-text-wrapper {
+    width: 1000px;
+    height: 387px;
+    display: flex;
+
+}
+
+.Leaders-of-sells-text {
+    width: 253px;
+    height: 91px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 130%;
+    margin-left: 24px;
+    margin-top: 20px;
+
+}
+
+#basic-price {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#old-price {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+#discount {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FF32A1;
+
+}
+
+.Leaders-of-sells-text p {
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+.Leaders-of-sells-text p:first-child {
+    margin-left: 0;
+
+}
+
+.img-wrapper {
+    width: 318px;
+    height: 276px;
+    border-radius: 21px;
+    background-image: url('./images/245172435_120758847008175_9018866459178403890_n\ 1.png');
+
+}
+
+/* Картинка с акцией */
+.first-order {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    margin-top: 76px;
+    background-color: #FC42FF;
+
+}
+
+.first-order-img {
+    width: 1002.53px;
+    height: 600px;
+    background-image: url('./images/happy-party-girl-with-party-cap-holding-balloons-on-pink\ 1.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+
+.first-order-text {
+    width: 1440px;
+    height: 600px;
+    background: linear-gradient(262.69deg, #CA4ACB -0.43%, #F088F2 104.36%);
+    
+}
+
+.first-order-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+
+}
+
+.first-order-number {
+    width: 473px;
+    height: 181.4px;
+    margin-bottom: 45px;
+    margin-top: 46px;
+
+}
+
+.first-order-input ,.first-order-btn {
+    width: 473px;
+    height: 75.44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 25.1468px;
+
+}
+
+.first-order-btn {
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #CA4ACB;
+    border: 2.39494px solid #FFFFFF;
+    border-radius: 25.1468px;
+    font-weight: 700;
+    font-size: 28.7392px;
+    margin-top: 30px;
+
+}
+
+/* Наши продажи */
+.our-work {
+    display: flex;
+
+}
+
+.our-work-img {
+    width: 395px;
+    height: 409px;
+    background-image: url('./images/Rectangle\ 2050.png');
+    margin-left: 25px;
+
+}
+
+.our-work-img:first-child {
+    margin: 0;
+
+}
+
+/* Подвал */
+footer {
+    display: flex;
+    margin-top: 40px;
+ 
+}
+
+.contacts-number {
+    width: 579px;
+    height: 198px;
+
+}
+
+.contacts-number p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130%;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.contacts-number p:first-child {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0;
+
+}
+
+.contacts-social {
+    width: 196px;
+    height: 77px;
+    display: flex;
+  
+}
+
+.contacts-social div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-social div:last-child {
+    margin-left: 33px;
+
+}
+
+.contacts-social img {
+    width: 44px;
+    height: 44px;
+
+}
+
+.contacts-social p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 11px;
+    margin-bottom: 0;
+
+}
+
+.address {
+    width: 579px;
+    height: 198px;
+    margin-left: 232px;
+    margin-bottom: 66px;
+
+}
+
+.address h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    margin-bottom: 25px;
+
+}
+
+.address h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    margin: 0;
+
+}
+
+.address p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0;
+
+}
+
+.address p:last-child {
+    font-size: 24px;
+
+}
+
+/* Каталог */
+
+#nav-catalog {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+
+}
+
+/* Готовые композиции */
+
+.sorting {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.sorting p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+
+}
+
+.sorting input {
+    width: 103px;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    margin-left: 15px;
+
+}
+
+#discounted-goods {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    margin-left: 40px;
+}
+
+.sorting-select {
+    width: 219px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+/* Страница товара */
+.product-wrapper{
+    display: flex;
+    width: 1321px;
+    height: 717px;
+}
+.product{
+    width: 828.6px;
+    height: 717px;
+
+}
+
+.product img{
+    width: 828.6px;
+    height: 717px;
+}
+.product-price{
+
+    display: flex;
+    align-items: flex-end;
+}
+.product-price p{
+
+    margin-left: 50px;
+}
+
+#product-basic-price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130%;
+    margin-left: 71px;
+    margin: 0 50px 0 71px;
+
+}
+#product-old-price{ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    margin: 0 50px 0 0;
+}
+#product-discount{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    margin: 0 50px 0 0;
+    color: #FF32A1;
+}
+.product-info button{
+    width: 397px;
+    height: 86px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+    color: #FFFFFF;
+    background: #C949CA;
+    border: 2px solid #C949CA;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-left: 190px;
+
+}
+.compound p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    margin-left: 71px;
+}
+/*  Галерея*/
+.gallery-img {
+
+    display: flex;
+}
+
+.gallery-img img {
+    margin: 30px;
+
+
+
+
+}
