@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"  />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +30,7 @@
                 <a href="./compositions.html">Галерея</a>
                 <a href="">Отзывы</a>
             </div>
-            <img src="./images/icons8-shopping_bag 1.png" alt="" class="bag_img">
+            <a href="./shopping-cart.html">   <img src="./images/icons8-shopping_bag 1.png" alt="" class="bag_img"></a>
         </div>
         <div class="bot">
             <div class="nav-menu-bot">
@@ -195,12 +196,17 @@
             </div>
         </div>
        <a href="./gallery.html"><p class="Popular-categories">Наши работы</p> </a>
-        <div class="our-work">
-            <div class="our-work-img">
-            </div>
-            <div class="our-work-img">
-            </div>
-            <div class="our-work-img">
+        <div class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url(./images/ourWork.png);"> </div>
+                    <div class="swiper-slide" style="background-image: url(./images/Rectangle\ 2051.png);"> </div>
+                    <div class="swiper-slide" style="background-image: url(./images/ourWork.png);"> </div>
+                    <div class="swiper-slide" style="background-image: url(./images/Rectangle\ 2051.png);"> </div>
+                    <div class="swiper-slide" style="background-image: url(./images/ourWork.png);"> </div>
+                    <div class="swiper-slide" style="background-image: url(./images/Rectangle\ 2051.png);"> </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </main>
@@ -226,6 +232,10 @@
             <p>Круглосуточно</p>
 
         </div>
-    </footer>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+   
+   
 </body>
 </html>

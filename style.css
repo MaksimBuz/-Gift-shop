@@ -1,13 +1,21 @@
 /* Для всего документа */
 body{
-    width: 1440px;
-    height: 4195px;
-    margin-left: 200px;
-    margin-top: 200px;
+    max-width: 1440px;
+    max-height: 4195px;
+    margin: 0 auto;
     padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    height: 100%;
+  
   
 }
 
+p{
+  line-height: 130%;
+
+}
 a {
     text-decoration: none;
 
@@ -83,7 +91,6 @@ header {
 }
 
 .nav-menu-top {
-    font-family: 'Montserrat';
     width: 510px;
     height: 21px;
     margin-left: 60px;
@@ -132,15 +139,11 @@ header {
 }
 
 .nav-menu-bot p {
-    font-style: normal;
     font-weight: 600;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 130%;
     margin-left: 40px;
     font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
 
 }
 
@@ -189,11 +192,8 @@ header {
 .social-media-number p {
     width: 127px;
     height: 19px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 15px;
-    line-height: 130%;
-    font-style: normal;
     margin: 0;
 
 }
@@ -205,11 +205,8 @@ header {
 }
 
 .Working-time p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 130%;
 
 }
 
@@ -233,8 +230,6 @@ header {
 }
 
 .sale h2 {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 80px;
     padding-top: 130px;
@@ -245,8 +240,6 @@ header {
 }
 
 .sale p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 63px;
     margin-top: 3px;
@@ -264,11 +257,8 @@ margin-left: 51px;
 #all-stock {  
     width: 241px;
     height: 82px;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    line-height: 130%;
     background: #FFFFFF;
     border-radius: 13px;
     cursor: pointer;
@@ -278,11 +268,8 @@ margin-left: 51px;
 #more {
     width: 235px;
     height: 82px;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    line-height: 130%;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 13px;
@@ -293,11 +280,8 @@ margin-left: 51px;
 
 /*Популярные  Категории */
 .Popular-categories {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 130%;
     margin-top: 40px;
     margin-left: 30px;
     margin-bottom: 20px;
@@ -320,11 +304,8 @@ margin-left: 51px;
 
 }
 .goods-item p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 130%;
     margin-top: 20px;
     text-align: center;
 
@@ -355,9 +336,6 @@ margin-left: 51px;
     height: 91px;
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    line-height: 130%;
     margin-left: 24px;
     margin-top: 20px;
 
@@ -432,8 +410,6 @@ margin-left: 51px;
 }
 
 .first-order-text p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 90px;
     margin-bottom: 0;
@@ -452,8 +428,6 @@ margin-left: 51px;
 .first-order-input ,.first-order-btn {
     width: 473px;
     height: 75.44px;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     border-radius: 25.1468px;
@@ -472,25 +446,6 @@ margin-left: 51px;
 
 }
 
-/* Наши продажи */
-.our-work {
-    display: flex;
-
-}
-
-.our-work-img {
-    width: 395px;
-    height: 409px;
-    background-image: url('./images/Rectangle\ 2050.png');
-    margin-left: 25px;
-
-}
-
-.our-work-img:first-child {
-    margin: 0;
-
-}
-
 /* Подвал */
 footer {
     display: flex;
@@ -505,11 +460,8 @@ footer {
 }
 
 .contacts-number p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 70px;
-    line-height: 130%;
     margin-bottom: 30px;
     margin-top: 25px;
 }
@@ -562,31 +514,23 @@ footer {
 }
 
 .address h2 {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 130%;
     margin-bottom: 25px;
 
 }
 
 .address h3 {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 130%;
     margin: 0;
 
 }
 
 .address p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 130%;
     margin: 0;
 
 }
@@ -601,11 +545,8 @@ footer {
 #nav-catalog {
     margin-left: 30px;
     margin-top: 20px;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 130%;
 
 }
 
@@ -620,11 +561,8 @@ footer {
 }
 
 .sorting p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 130%;
 
 }
 
@@ -638,11 +576,8 @@ footer {
 }
 
 #discounted-goods {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 130%;
     margin-left: 40px;
 }
 
@@ -670,54 +605,46 @@ footer {
     width: 828.6px;
     height: 717px;
 }
+
 .product-price{
 
     display: flex;
     align-items: flex-end;
 }
 .product-price p{
-
     margin-left: 50px;
+
 }
 
 #product-basic-price{
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 70px;
-    line-height: 130%;
     margin-left: 71px;
     margin: 0 50px 0 71px;
 
 }
 #product-old-price{ 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 130%;
     margin: 0 50px 0 0;
-}
-#product-discount{
 
-    font-family: 'Montserrat';
-    font-style: normal;
+}
+
+#product-discount{
     font-weight: 600;
     font-size: 28px;
-    line-height: 130%;
     letter-spacing: 0.03em;
     margin: 0 50px 0 0;
     color: #FF32A1;
+
 }
+
 .product-info button{
     width: 397px;
     height: 86px;
     cursor: pointer;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 28px;
-    line-height: 130%;
     color: #FFFFFF;
     background: #C949CA;
     border: 2px solid #C949CA;
@@ -727,14 +654,14 @@ footer {
 
 }
 .compound p{
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 130%;
     margin-left: 71px;
+
 }
+
 /*  Галерея*/
+
 .gallery-img {
 
     display: flex;
@@ -743,7 +670,178 @@ footer {
 .gallery-img img {
     margin: 30px;
 
+}
+
+/* Корзина */
+
+hr {
+    width: 824px;
+    height: 1px;
+    background: #A7A7A7;
+    margin: 0;
+
+}
+
+.product {
+    width: 192px;
+    height: 166.64px;
+    margin-top: 40px;
+    margin-left: 29px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+ 
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 29px;
+    width: 282px;
+    height: 46px;
+
+}
+
+#product-img
+{
+    width: 192.6px;
+    height: 166.64px;
+    grid-row: 1 / span 2;
 
 
+}
+
+.product__quantity {
+    margin-top: 71px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    margin-left: 29px;
+    align-items: center;
+    justify-content: space-around;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}  
+
+.product__quantity button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+ 
+}
+
+.product__quantity__text {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.Order-Details {
+    width: 496px;
+    height: 393px;
+    border: 2px solid #000000;
+    border-radius: 21px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-left: 974px;
+
+}
+
+.Order__title {
+    margin-left: 25px;
+
+}
+
+.Order__text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 25px;
+
+}
+
+.Order__text-sum {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-left: 25px;
+
+}
+
+.Order__text-quantity {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: start;
+    justify-self: end;
+    margin-right: 26px;
+    
+}
+
+.Order__text-price {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0;
+    justify-self: end;
+    margin-right: 26px;
+
+}
+
+.Order__input {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column: 1 / span 2;
+    width: 446px;
+    height: 73px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Order__btn {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column: 1 / span 2;
+    width: 446px;
+    height: 76px;
+    background: #F188F2;
+    border-radius: 17px;
+    margin: 25px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+/* Слайдер */
+.swiper {
+  height: 100%;
+  }
+
+.swiper-slide {
+    height: 100vh;
+    width: 395px;
+    height: 409px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }

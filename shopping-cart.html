@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -52,28 +48,64 @@
         </div>
     </header>  
     <main>
-        <p id="nav-catalog">Главная   /   Католог   /   Композиция шаров на день рождения</p>
-        <p class="Popular-categories">Композиция шаров на день рождения</p>
-        <div class="product-wrapper">
-            <div class="product">
-                <img src="./images/245172435_120758847008175_9018866459178403890_n 1.png" alt="">
+        <p class="Popular-categories">Корзина</p>
+        <p id="nav-catalog">Главная / Корзина</p>
+        <hr>
+        <div class="product">
+            <img src="./images/Mask Group.png" alt="" id="product-img">
+            <p class="product-title">Композиция шаров на день рождения</p>
+            <div class="product__quantity">
+                <button class="product__btn-min">-</button>
+                <p class="product__quantity__text" id="quantity-1">1</p>
+                <button class="product__btn-max">+</button>
             </div>
-            <div class="product-info ">
-                <div class="product-price ">
-                    <p id="product-basic-price">1450р</p>
-                    <p id="product-old-price" style="text-decoration: line-through;">1540р</p>
-                    <p id="product-discount"> -7%</p>
-                </div>
-                <button>В корзину</button>  
-                <div class="compound">
-                    <p>Состав:</p>
-                    <p>Шар латоксный - 2 шт</p>
-                    <p>Шар 3D - 1 шт</p>
-                </div>
+            <div class="product-price">
+                <p id="product-basic-price">1450р</p>
+                <p id="product-old-price" style="text-decoration: line-through;">1540р</p>
             </div>
-          
+               
+        </div>
+        <div class="product">
+            <img src="./images/Mask Group.png" alt="" id="product-img">
+            <p class="product-title">Композиция шаров на день рождения</p>
+            <div class="product__quantity">
+                <button class="product__btn-min">-</button>
+                <p class="product__quantity__text" id="quantity-2">2</p>
+                <button class="product__btn-max">+</button>
+            </div>
+            <div class="product-price">
+                <p id="product-basic-price">1450р</p>
+                <p id="product-old-price" style="text-decoration: line-through;">1540р</p>
+            </div>
+               
+        </div>
+        <div class="product">
+            <img src="./images/Mask Group.png" alt="" id="product-img">
+            <p class="product-title">Композиция шаров на день рождения</p>
+            <div class="product__quantity">
+                <button class="product__btn-min">-</button>
+                <p class="product__quantity__text" id="quantity-3">3</p>
+                <button class="product__btn-max">+</button>
+            </div>
+            <div class="product-price">
+                <p id="product-basic-price">1450р</p>
+                <p id="product-old-price" style="text-decoration: line-through;">1540р</p>
+            </div>
+               
+        </div>
+        <div class="Order-Details">
+            <h2 class="Order__title"> Детали заказа  </h2>
+            <p  class="Order__text">Колличество</p>
+            <p class="Order__text-sum">Сумма</p>
+            <p  class="Order__text-quantity">1 шт</p>
+           
+            <p class="Order__text-price">4 977,00р</p>
+          <input type="text" placeholder="Ваш номер телефона" class="Order__input">
+          <button type="submit" class="Order__btn">Заказать</button>
+
         </div>
     </main>
+    
     <footer>
         <div class="contacts-number">
             <p >Контакты</p>
